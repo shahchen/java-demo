@@ -138,6 +138,7 @@
       <updated>1668695414117</updated>
       <workItem from="1668695415172" duration="770000" />
       <workItem from="1668696712981" duration="23155000" />
+      <workItem from="1668873709689" duration="356000" />
     </task>
     <servers />
   </component>
@@ -154,6 +155,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
