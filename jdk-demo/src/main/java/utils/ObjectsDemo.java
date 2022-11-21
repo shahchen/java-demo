@@ -1,4 +1,4 @@
-package ohterutil;
+package utils;
 
 import org.junit.Test;
 
@@ -9,7 +9,7 @@ import java.util.Objects;
 
 public class ObjectsDemo {
     /**
-     * Objects工具类
+     * java.util.Objects工具类使用demo
      */
 
     //-----------------------equal----------------------------

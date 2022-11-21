@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a77e06a-f05d-47d0-b6db-0416383f4c2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/enumdemo/DataTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/juc/atomic/AtomicReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/juc/atomic/AtomicStampedReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/list/CopyOnWriteArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/map/WeakHashMapDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk-demo/src/main/java/arrays/ArraysDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/ArraysDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk-demo/src/main/java/list/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/list/ArrayListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk-demo/src/main/java/ohterutil/ObjectsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/ObjectsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2Hg8YfK1oCsCECgBeF8yXCZpMKT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,6 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -40,16 +52,27 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager" selected="JUnit.ObjectsDemo.testCompare">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ObjectsDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdk-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ohterutil.*" />
+          <option name="PATTERN" value="utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ohterutil" />
-      <option name="MAIN_CLASS_NAME" value="ohterutil.ObjectsDemo" />
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.ObjectsDemo" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -60,12 +83,12 @@
       <module name="jdk-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ohterutil.*" />
+          <option name="PATTERN" value="utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ohterutil" />
-      <option name="MAIN_CLASS_NAME" value="ohterutil.ObjectsDemo" />
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.ObjectsDemo" />
       <option name="METHOD_NAME" value="testCompare" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -76,12 +99,12 @@
       <module name="jdk-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ohterutil.*" />
+          <option name="PATTERN" value="utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ohterutil" />
-      <option name="MAIN_CLASS_NAME" value="ohterutil.ObjectsDemo" />
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.ObjectsDemo" />
       <option name="METHOD_NAME" value="testEqual" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -92,12 +115,12 @@
       <module name="jdk-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ohterutil.*" />
+          <option name="PATTERN" value="utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ohterutil" />
-      <option name="MAIN_CLASS_NAME" value="ohterutil.ObjectsDemo" />
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.ObjectsDemo" />
       <option name="METHOD_NAME" value="testHash" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -108,12 +131,12 @@
       <module name="jdk-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ohterutil.*" />
+          <option name="PATTERN" value="utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ohterutil" />
-      <option name="MAIN_CLASS_NAME" value="ohterutil.ObjectsDemo" />
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.ObjectsDemo" />
       <option name="METHOD_NAME" value="testNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -140,7 +163,7 @@
       <updated>1668695414117</updated>
       <workItem from="1668695415172" duration="770000" />
       <workItem from="1668696712981" duration="23155000" />
-      <workItem from="1668873709689" duration="2133000" />
+      <workItem from="1668873709689" duration="6054000" />
     </task>
     <servers />
   </component>
