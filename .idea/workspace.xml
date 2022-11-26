@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a77e06a-f05d-47d0-b6db-0416383f4c2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/enumdemo/DataTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/juc/atomic/AtomicReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/juc/atomic/AtomicStampedReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/list/CopyOnWriteArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/map/WeakHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/OptionalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/model/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/model/Insurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/model/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk-demo/src/main/java/arrays/ArraysDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/ArraysDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk-demo/src/main/java/list/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/list/ArrayListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk-demo/src/main/java/ohterutil/ObjectsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/ObjectsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +46,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.ObjectsDemo.testCompare">
+  <component name="RunManager" selected="JUnit.EnumMapDemo.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -59,6 +54,22 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumMapDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdk-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="map" />
+      <option name="MAIN_CLASS_NAME" value="map.EnumMapDemo" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,38 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectsDemo.testEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdk-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="utils" />
-      <option name="MAIN_CLASS_NAME" value="utils.ObjectsDemo" />
-      <option name="METHOD_NAME" value="testEqual" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObjectsDemo.testHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdk-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="utils" />
-      <option name="MAIN_CLASS_NAME" value="utils.ObjectsDemo" />
-      <option name="METHOD_NAME" value="testHash" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ObjectsDemo.testNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdk-demo" />
       <extension name="coverage">
@@ -143,13 +122,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OptionalDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdk-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.OptionalDemo" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EnumMapDemo.test" />
+        <item itemvalue="JUnit.OptionalDemo.test" />
         <item itemvalue="JUnit.ObjectsDemo.testCompare" />
         <item itemvalue="JUnit.ObjectsDemo.testNull" />
         <item itemvalue="JUnit.ObjectsDemo.test" />
-        <item itemvalue="JUnit.ObjectsDemo.testHash" />
-        <item itemvalue="JUnit.ObjectsDemo.testEqual" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +158,7 @@
       <updated>1668695414117</updated>
       <workItem from="1668695415172" duration="770000" />
       <workItem from="1668696712981" duration="23155000" />
-      <workItem from="1668873709689" duration="6054000" />
+      <workItem from="1668873709689" duration="10100000" />
     </task>
     <servers />
   </component>
