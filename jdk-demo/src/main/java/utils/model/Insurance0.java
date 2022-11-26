@@ -1,13 +1,9 @@
 package utils.model;
 
-public class Insurance {
+public class Insurance0 {
     private String name;
 
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 }

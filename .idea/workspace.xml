@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a77e06a-f05d-47d0-b6db-0416383f4c2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/OptionalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/model/Insurance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/function/consumer/ConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/function/predicate/PredicateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/model/Car0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/model/Insurance0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/model/Person0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/OptionalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/OptionalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/model/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/model/Insurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/model/Insurance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/utils/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,83 +53,26 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.EnumMapDemo.test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utils.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.OptionalDemo.getInsuranceUseFlatmap">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumMapDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdk-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="map" />
-      <option name="MAIN_CLASS_NAME" value="map.EnumMapDemo" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObjectsDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdk-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="utils" />
-      <option name="MAIN_CLASS_NAME" value="utils.ObjectsDemo" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObjectsDemo.testCompare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdk-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="utils" />
-      <option name="MAIN_CLASS_NAME" value="utils.ObjectsDemo" />
-      <option name="METHOD_NAME" value="testCompare" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObjectsDemo.testNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdk-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="utils" />
-      <option name="MAIN_CLASS_NAME" value="utils.ObjectsDemo" />
-      <option name="METHOD_NAME" value="testNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OptionalDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OptionalDemo.getInsuranceUseFlatmap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdk-demo" />
       <extension name="coverage">
         <pattern>
@@ -132,7 +82,71 @@
       </extension>
       <option name="PACKAGE_NAME" value="utils" />
       <option name="MAIN_CLASS_NAME" value="utils.OptionalDemo" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="getInsuranceUseFlatmap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalDemo.testFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdk-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.OptionalDemo" />
+      <option name="METHOD_NAME" value="testFilter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalDemo.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdk-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.OptionalDemo" />
+      <option name="METHOD_NAME" value="testGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalDemo.testIf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdk-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.OptionalDemo" />
+      <option name="METHOD_NAME" value="testIf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalDemo.testOfNullable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdk-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.OptionalDemo" />
+      <option name="METHOD_NAME" value="testOfNullable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EnumMapDemo.test" />
-        <item itemvalue="JUnit.OptionalDemo.test" />
-        <item itemvalue="JUnit.ObjectsDemo.testCompare" />
-        <item itemvalue="JUnit.ObjectsDemo.testNull" />
-        <item itemvalue="JUnit.ObjectsDemo.test" />
+        <item itemvalue="JUnit.OptionalDemo.getInsuranceUseFlatmap" />
+        <item itemvalue="JUnit.OptionalDemo.testFilter" />
+        <item itemvalue="JUnit.OptionalDemo.testIf" />
+        <item itemvalue="JUnit.OptionalDemo.testGet" />
+        <item itemvalue="JUnit.OptionalDemo.testOfNullable" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +172,8 @@
       <updated>1668695414117</updated>
       <workItem from="1668695415172" duration="770000" />
       <workItem from="1668696712981" duration="23155000" />
-      <workItem from="1668873709689" duration="10100000" />
+      <workItem from="1668873709689" duration="10429000" />
+      <workItem from="1669442187472" duration="9553000" />
     </task>
     <servers />
   </component>
