@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/annotation-demo/annotation-demo.iml" filepath="$PROJECT_DIR$/annotation-demo/annotation-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/failsafe-demo/failsafe-demo.iml" filepath="$PROJECT_DIR$/failsafe-demo/failsafe-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-demo.iml" filepath="$PROJECT_DIR$/.idea/java-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdk-demo/jdk-demo.iml" filepath="$PROJECT_DIR$/jdk-demo/jdk-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/junit-demo/junit-demo.iml" filepath="$PROJECT_DIR$/junit-demo/junit-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lombok-demo/lombok-demo.iml" filepath="$PROJECT_DIR$/lombok-demo/lombok-demo.iml" />
     </modules>
   </component>
 </project>

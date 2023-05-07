@@ -10,6 +10,9 @@
     <modules>
         <module>jdk-demo</module>
         <module>lombok-demo</module>
+        <module>annotation-demo</module>
+        <module>junit-demo</module>
+        <module>failsafe-demo</module>
     </modules>
     <packaging>pom</packaging>
 
