@@ -30,5 +30,14 @@ public class RetryPolicyDemo {
         RetryPolicyBuilder<Object> handle7 = RetryPolicy.builder()
                 .handleResultIf((t) -> false);
 
+        // 同时针对错误或者结果
+        RetryPolicyBuilder<Object> handle8 = RetryPolicy.builder()
+                .handle(Exception.class)
+                .handleResult(null);
+
+        RetryPolicy.builder()
+                .withMaxAttempts(2)
+                .withMaxRetries(3);
+
     }
 }

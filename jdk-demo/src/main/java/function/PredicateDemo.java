@@ -1,4 +1,4 @@
-package function.predicate;
+package function;
 
 public class PredicateDemo {
 }

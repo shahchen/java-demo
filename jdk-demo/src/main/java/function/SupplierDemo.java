@@ -1,4 +1,4 @@
-package function.supplier;
+package function;
 
 public class SupplierDemo {
 }

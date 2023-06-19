@@ -5,35 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a77e06a-f05d-47d0-b6db-0416383f4c2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/annotation-demo/annotation-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotation-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/failsafe-demo/failsafe-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/failsafe-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/failsafe-demo/src/main/java/HelloFailsafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/failsafe-demo/src/main/java/RetryPolicyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/bit/BitSetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/collection/CollectionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/function/supplier/SupplierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/juc/thread/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/math/JavaLangMathDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/math/JavaMathDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/stream/GroupingByDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/stream/ReduceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/stream/StreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-demo/junit-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/function/FunctionDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk-demo/jdk-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/jdk-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk-demo/src/main/java/enumdemo/DataTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/enumdemo/DataTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk-demo/src/main/java/function/consumer/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/function/consumer/ConsumerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk-demo/src/main/java/set/HashSetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/set/HashSetDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk-demo/target/classes/set/HashSetDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/target/classes/set/HashSetDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk-demo/target/classes/utils/OptionalDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/target/classes/utils/OptionalDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lombok-demo/lombok-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lombok-demo/lombok-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/failsafe-demo/src/main/java/HelloFailsafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/failsafe-demo/src/main/java/HelloFailsafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/failsafe-demo/src/main/java/RetryPolicyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/failsafe-demo/src/main/java/RetryPolicyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk-demo/src/main/java/collection/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/collection/CollectionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk-demo/src/main/java/function/consumer/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/function/ConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk-demo/src/main/java/function/predicate/PredicateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/function/PredicateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk-demo/src/main/java/function/supplier/SupplierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-demo/src/main/java/function/SupplierDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +49,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="utils.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HelloFailsafe">
+  <component name="RunManager" selected="JUnit.FunctionDemo.testFunction">
     <configuration name="HelloFailsafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloFailsafe" />
       <module name="failsafe-demo" />
@@ -84,15 +64,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionDemo.testFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdk-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="function.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="function" />
+      <option name="MAIN_CLASS_NAME" value="function.FunctionDemo" />
+      <option name="METHOD_NAME" value="testFunction" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,29 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdk-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stream" />
-      <option name="MAIN_CLASS_NAME" value="stream.StreamDemo" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FunctionDemo.testFunction" />
         <item itemvalue="Application.HelloFailsafe" />
         <item itemvalue="JUnit.GroupingByDemo.test3" />
         <item itemvalue="JUnit.GroupingByDemo.test2" />
         <item itemvalue="JUnit.GroupingByDemo.test1" />
-        <item itemvalue="JUnit.StreamDemo.test" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +162,8 @@
       <workItem from="1668873709689" duration="10429000" />
       <workItem from="1669442187472" duration="20794000" />
       <workItem from="1671256671359" duration="110462000" />
-      <workItem from="1683452203343" duration="6650000" />
+      <workItem from="1683452203343" duration="11378000" />
+      <workItem from="1687088985338" duration="4680000" />
     </task>
     <servers />
   </component>

@@ -2,9 +2,7 @@ import dev.failsafe.Failsafe;
 import dev.failsafe.RetryPolicy;
 import dev.failsafe.RetryPolicyBuilder;
 
-import java.text.SimpleDateFormat;
 import java.time.Duration;
-import java.util.Date;
 
 public class HelloFailsafe {
 
